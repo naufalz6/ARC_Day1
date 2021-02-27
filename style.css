@@ -6,7 +6,7 @@
     
 }
 
-body{
+body{ 
     height: 100vh ;
     width : 100vw ;
     display: grid ;
@@ -14,12 +14,13 @@ body{
     
 }
 
-nav {
+/* Style pada Foto profile dan link eksternal
+nav { 
     height : 7px ;
     position : absolute;
     top : 0 ;
     right : 0 ;
-    display: : flex ;
+    display: : flex
     align-items: center;
     margin: 2vw ;
 }
@@ -27,8 +28,8 @@ nav {
 nav >* {
     margin: 6px ;
     color: black ;
-    
 }
+
 nav img {
     height : 5vh ;
     width : 5vh ;
@@ -36,12 +37,16 @@ nav img {
     border-radius: 50% ;
 }
 
+
+/* Style untuk menyambungkan ke google */
 form {
     width :47.5vw ;
         
 }
 
-.search_logo {
+
+/* Style untuk mengedit search */
+.search_logo { 
     width: 100% ;
     padding : 0 20% 5vh ;
 }
@@ -54,6 +59,15 @@ form {
     border: 1px solid #dfe1e5 ;
     font-size: 16px ;
 }
+
+.search input : focus, 
+.search input :hover {
+    outline : none ;
+    box-shadow: 0 1px 10px rgba(0,0,0,0.15) ;
+    border : 1px solid rgba (0,0,0,0) ;
+    
+}
+
 
 .search {
     position: relative ;
@@ -72,7 +86,8 @@ form {
 
 .mic_icon {
     position: absolute ;
-    left : 600px ;
+    left : 700px ;
+    
 }
 
 .button { /* ini pas nyetting yg button */
@@ -83,7 +98,30 @@ form {
 }
 
 .button button {
-    margin: 10px
+    margin: 10px ;
+    color: black ;
+    background-color: #f8f9fa ;
+    padding: 10px 15px ;
+    border: none ;
+    border-radius: 5px ;
+    border : 1px solid rgba(0,0,0,0) ;
 }
 
-test
+.button button {
+    border : 1px solid #ddd ;
+    cursor :pointer ;
+}
+
+/* Style untuk mengedit link ITB */
+.offer {
+    font-size: 13px ;
+    text-align: center ;
+    margin-top: 50px
+}
+
+/* Style fitur yang ditambahkan */
+.bahasa {
+    font-size: 13px ;
+    text-align: center ;
+    margin-top: 50px
+}
